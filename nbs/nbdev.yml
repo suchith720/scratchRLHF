@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "scratchRLHF"
+  site-url: "https://suchith720.github.io/scratchRLHF"
+  description: "RLFH from scratch"
+  repo-branch: main
+  repo-url: "https://github.com/suchith720/scratchRLHF"
