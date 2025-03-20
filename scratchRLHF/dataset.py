@@ -13,7 +13,7 @@ def write_datafile(fname, tokens):
     np.save(fname, tokens)
     
 
-# %% ../nbs/01_dataset.ipynb 16
+# %% ../nbs/01_dataset.ipynb 20
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--filename', type=str, required=True)
@@ -21,7 +21,7 @@ def parse_args():
     return parser.parse_args()
     
 
-# %% ../nbs/01_dataset.ipynb 17
+# %% ../nbs/01_dataset.ipynb 21
 if __name__ == "__main__":
     args = parse_args()
     

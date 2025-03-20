@@ -6,7 +6,7 @@ __all__ = ['ddp', 'device_type', 'total_batch_size', 'B', 'T', 'grad_accum_steps
            'model_dir', 'log_dir', 'log_file', 'optimizer', 'load_tokens', 'DataLoaderLite', 'get_lr']
 
 # %% ../nbs/02_train.ipynb 3
-import torch.distributed as dist, torch, os, tiktoken, numpy as np, time
+import torch.distributed as dist, torch, os, tiktoken, numpy as np, time, math
 from torch.distributed import init_process_group, destroy_process_group
 from torch.nn.parallel import DistributedDataParallel as DDP
 
